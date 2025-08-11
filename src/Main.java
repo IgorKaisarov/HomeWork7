@@ -34,6 +34,19 @@ public class Main {
         // Task 3
         System.out.println(" Task 3 ");
 
+        int countryY = 12_000_000;
+        int bornPeople = 17;
+        int deathPeople = 8;
+        int years = 10;
+
+        for (int t = 1; t <= years; t++) {
+            int newBirths = countryY * bornPeople / 1000;
+            int deaths = countryY * deathPeople / 1000;
+            countryY = countryY + newBirths - deaths;
+            System.out.println("Год " + t + ", численность населения составляет " + countryY);
+        }
+
+
 
 
 
