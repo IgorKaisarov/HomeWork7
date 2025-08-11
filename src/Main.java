@@ -22,7 +22,7 @@ public class Main {
         int first = 1;
         while (first <= 10) {
             System.out.print(first + " ");
-            first ++;
+            first++;
         }
 
         System.out.println();
@@ -46,9 +46,24 @@ public class Main {
             System.out.println("Год " + t + ", численность населения составляет " + countryY);
         }
 
+// Task 4
+        System.out.println(" Task 4 ");
 
 
-
+        int money = 15000;
+        int month1 = 0;
+        int percent = 7;
+        int total1 = money;
+//        while (total1 < 12_000_000) {
+        for (; total1 < 12_000_000; ) {
+//            total1 += total1 * percent / 100;
+            total1 = total1 + (total1 * percent / 100);
+            month1++;
+            System.out.println(" Месяц " + month1 + " сумма накоплений равна " + total1 + " рублей. ");
+        }
 
     }
+
+
 }
+
