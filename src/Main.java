@@ -62,8 +62,19 @@ public class Main {
             System.out.println(" Месяц " + month1 + " сумма накоплений равна " + total1 + " рублей. ");
         }
 
+        // Task 5
+        System.out.println(" Task 5 ");
+
+        int money22 = 15000;
+        int month22 = 1;
+        int percent22 = 7;
+        int total22 = money22;
+        for (; total22 < 12_000_000; month22++) {
+            total22 = total22 + (total22 * percent22 / 100);
+            if (month22 % 6 == 0) {
+                System.out.println(" Месяц " + month22 + " сумма накоплений равна " + total22 + " рублей. ");
+            }
+        }
     }
-
-
 }
 
