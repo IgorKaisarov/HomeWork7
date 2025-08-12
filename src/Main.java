@@ -75,6 +75,30 @@ public class Main {
                 System.out.println(" Месяц " + month22 + " сумма накоплений равна " + total22 + " рублей. ");
             }
         }
+
+        // Task 6
+        System.out.println(" Task 6 ");
+
+        int money23 = 15000;
+        int years23 = 9;
+        int percent23 = 7;
+        int total23 = money23;
+        int monthsInYear = 12;
+        int allNeedsMonths = years23 * monthsInYear;
+        for (int t23 = 1; t23 <= allNeedsMonths; t23++) {
+            if (t23 % 6 == 0) {
+                total23 += total23 * percent23 / 100;
+                System.out.println(" Месяц " + t23 + " сумма накоплений равна " + total23 + " рублей. ");
+            }
+        }
     }
+
+
 }
+
+
+
+
+
+
 
