@@ -1,3 +1,4 @@
+import java.time.Year;
 
 public class Main {
     public static void main(String[] args) {
@@ -100,11 +101,26 @@ public class Main {
         for (; i <= 31; i+=7 ){
                 System.out.println(" Сегодня пятница " + i + "-e число, необходимо сдать отчет. ");
             }
+
+
+        // Task 8
+        System.out.println(" Task 8 ");
+
+
+        int currentYear = 2025 - 200;
+        int currentYearFuture = 2025 + 100;
+        for (int year = currentYear; year < currentYearFuture ; year++){
+            if (year % 79 == 0){
+                System.out.println(year);
+            }
         }
 
 
 
 
+
+
+        }
 
     }
 
