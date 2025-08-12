@@ -91,10 +91,25 @@ public class Main {
                 System.out.println(" Месяц " + t23 + " сумма накоплений равна " + total23 + " рублей. ");
             }
         }
+
+        // Task 7
+        System.out.println(" Task 7 ");
+
+        int friday = 1;
+        int i = friday;
+        for (; i <= 31; i+=7 ){
+                System.out.println(" Сегодня пятница " + i + "-e число, необходимо сдать отчет. ");
+            }
+        }
+
+
+
+
+
     }
 
 
-}
+
 
 
 
