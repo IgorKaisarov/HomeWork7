@@ -87,8 +87,8 @@ public class Main {
         int monthsInYear = 12;
         int allNeedsMonths = years23 * monthsInYear;
         for (int t23 = 1; t23 <= allNeedsMonths; t23++) {
+            total23 += total23 * percent23 / 100;
             if (t23 % 6 == 0) {
-                total23 += total23 * percent23 / 100;
                 System.out.println(" Месяц " + t23 + " сумма накоплений равна " + total23 + " рублей. ");
             }
         }
